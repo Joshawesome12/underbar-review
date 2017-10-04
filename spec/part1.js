@@ -503,7 +503,7 @@
 
       it('Fill me in with a description of the behavior this test is checking for', function() {
         var result = _.reduce([1, 2, 3], function(memo, item) {
-          return memo *= item;
+          return memo * item;
         }, 0);
 
         expect(result).to.equal(0);
