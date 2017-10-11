@@ -59,8 +59,7 @@
         // Replace this line with an `expect` statement that tests
         // the behavior described by the `it` string
         var array = [1, 2, 3];
-        // var value = 8;
-        expect(_.contains(array, 8)).to.be.true;
+        expect(_.contains(array, 8)).to.be.false;
       });
 
       it('should return true given a object and a value from that object', function() {
